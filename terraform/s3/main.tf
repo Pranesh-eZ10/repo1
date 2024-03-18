@@ -4,7 +4,7 @@ provider "aws" {
   #secret_key = "update_keys"
 }
 resource "aws_s3_bucket" "demo" {
-     bucket = "anjurooba"
+     bucket = "segundo"
 }
 output "bucket_arn" {
     value = aws_s3_bucket.demo.arn
